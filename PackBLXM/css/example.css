@@ -148,11 +148,13 @@ HeaderRight {
     display: none !important;
 }
 .ButtonHotBarItem{
-    background-color:none !important;
+    background-color:transparent !important;
     border-width:0px !important;
+    border:0 !important; 
+    border-style:none !important;
     transform:scale(1.1);
-    margin-left:25px !important;
-    margin-right:25px !important;
+    margin-left:45px !important;
+    margin-right:45px !important;
 }
 .GunCrosshairOverlayWrapper,
 .GunCrosshairOverlay {
