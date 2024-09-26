@@ -1,0 +1,193 @@
+@font-face {
+    font-family: 'Pixelify Sans';
+    font-style: normal;
+
+    font-display: swap;
+    src: url('https://assets-delta-eight.vercel.app/Play-Bold.ttf');
+}
+@font-face {
+    font-family: 'Bad Script';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('https://fonts.gstatic.com/s/badscript/v16/6NUT8F6PJgbFWQn47_x7pOskzA.woff2') format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+@font-face {
+    font-family: 'discord';
+    font-style: normal;
+    font-weight: normal;
+    src: url('https://assets-delta-eight.vercel.app/gg%20sans%20Semibold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'ytkingdreamfont';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('https://fonts.gstatic.com/s/varelaround/v20/w8gdH283Tvk__Lua32TysjIfp8uP.woff2') format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+.noa-canvas {
+    width: 65% !important;
+    height: 65% !important;
+    transform: scale(1.35);
+
+    -webkit-filter: brightness(95%) contrast(105%);
+
+    filter: brightness(95%) contrast(105%);
+}
+.ControlRow{
+    background-image:url('https://assets-delta-eight.vercel.app/keybord.png');
+}
+.WholeAppWrapper {
+    font-family: "Pixelify Sans", sans-serif !important;
+
+    font-style: normal;
+}
+
+#root {
+    font-family: "Pixelify Sans", sans-serif;
+
+    font-style: normal;
+}
+
+.AvailableGameText {
+    border-radius: 0px !important;
+    color: rgb(188, 130, 242);
+    -webkit-text-stroke-color: white;
+    text-stroke-color: white;
+}
+
+.GameAdsBanner {
+    opacity: 0 !important;
+}
+
+.SettingsMenuRight,
+.SettingsMenuLeft,
+.Inventory,
+.InviteLinkBox,
+.CharCustomisation,
+.TopRightElements,
+.BottomLeftElements,
+.SettingsMenuRight,
+.SettingsMenu {
+    opacity: 0.95 !important;
+}
+
+.CharCustomisation {
+    opacity: 0.95 !important;
+}
+
+.SettingsSectionTitle {
+    padding: .5rem !important;
+}
+.TexturePackAuthor{
+font-family:'Bad Script' cursive;
+}
+.Inventory {
+    opacity: 0.95 !important;
+}
+
+.InventoryAdOuter {
+    opacity: 0 !important;
+}
+
+.SettingsAdOuter {
+    opacity: 0 !important;
+}
+
+.HomeBannerDiv {
+    opacity: 0 !important;
+}
+
+.ShopOnBoughtInfo {
+    border-radius: 10px;
+}
+
+.CrossHair {
+    opacity: 0.75 !important;
+    border-style: outset;
+    font-size: 7.5px;
+    border-width: 3.5px !important;
+    border-color: rgb(252, 224, 139);
+    border-radius: 1000px;
+    width: 15px;
+    height: 15px;
+}
+
+.TopRightElements,
+HeaderRight {
+    top: 0.5rem !important;
+    right: 0.5rem !important;
+}
+
+.GameBadgeMain {
+    border-radius: 10px !important;
+
+}
+
+.FullyFancyText {
+    font-family: "ytkingdreamfont", sans-serif !important;
+}
+.AvailableGameTextInner{
+    font-family:'ytkingdreamfont', sans-serif !important;
+}
+.HotBarItem {
+    transform: scale(0.95);
+    background-color: mediumslateblue !important;
+    border-color: mediumaquamarine !important;
+    opacity: 0.75 !important;
+}
+
+.SelectedItem {
+    background-color: rgb(35, 35, 199) !important;
+}
+
+.GameBadgeBottom {
+    display: none !important;
+}
+.ButtonHotBarItem{
+    background-color:transparent !important;
+    border-width:0px !important;
+    border:0 !important; 
+    border-style:none !important;
+    transform:scale(1.1);
+    margin-left:45px !important;
+    margin-right:45px !important;
+}
+.GunCrosshairOverlayWrapper,
+.GunCrosshairOverlay {
+    opacity: 0.5 !important;
+}
+
+.GunCrosshairOverlayWrapper .GunCrosshairOverlayDot {
+
+    border: 2px solid rgba(196, 53, 53, 0.65) !important;
+    height: 7.5px !important;
+    width: 7.5px !important;
+
+}
+
+.AvailableGame {
+    border-style: solid;
+    border-color: rgb(43, 226, 141);
+    border-width: 3.5px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none !important;
+
+}
+
+.AvailableGameTextWrapperBackground {
+    background-color: transparent !important;
+}
+
+.HeaderRightBackground {
+    background-color: transparent !important;
+}
+
+
+.HomeBackground {
+    background-image: url('https://assets-delta-eight.vercel.app/41524.jpg') !important;
+}
